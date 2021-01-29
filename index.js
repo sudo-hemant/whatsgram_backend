@@ -10,7 +10,7 @@ const router = require('./router')
 const { addUser, removeUser, getUser, getUsersInRoom } = require('./users')
 
 const PORT = process.env.PORT || 5000
-let whitelist = [ "http://localhost:3000", "http://localhost:5000", "https://chatpecharcha.netlify.app/" ]
+let whitelist = [ "http://localhost:3000", "http://localhost:5000", "https://whatsgram.netlify.app/" ]
 
 const io = socketio(server, { 
     cors : {
